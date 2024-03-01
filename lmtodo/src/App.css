@@ -1,0 +1,57 @@
+body {
+  font-family: 'DM Sans Bold', sans-serif;
+  background: linear-gradient(to bottom, #F4512C, #673AB7);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-container {
+  max-width: 400px;
+  background-color: #F8FFFE;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #5E1B89;
+}
+
+.todo-list {
+  margin-top: 20px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todo-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.todo-item input[type="text"] {
+  flex: 1;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.todo-item button {
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #FF7F4D;
+}
+
